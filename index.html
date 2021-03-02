@@ -26,7 +26,7 @@
             .card{
                 width: 90% !important;
                 
-            }    
+            }   
         }  
     </style>
 
@@ -69,23 +69,19 @@
                             <p class="card-text">
                             <div class="row g-3">
                                 <div class="col-md-6">
-                                    <label for="Residential Address" class="form-label">Residential Address</label>
-                                    <input type="text" class="form-control" id="location">
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="National ID" class="form-label">Upload National ID</label>
-                                    <input class="form-control" type="file" id="national-id">
+                                    <label for="location" class="form-label">Current Location</label>
+                                    <input type="text" class="form-control" id="location" style="padding: 10px;" placeholder="eg Kwadaso...">
                                 </div>
                                 <div class="col-md-6">
                                     <label for="Region" class="form-label">Region</label>
-                                    <select id="region" class="form-select">
+                                    <select id="region" class="form-select" style="padding: 10px; color: #212529 !important; ">
                                         <option selected>Ashanti Region</option>
                                         <option>Western Region</option>
                                     </select>
                                 </div>
                                 <div class="col-md-6">
                                     <label for="District" class="form-label">District</label>
-                                    <select id="district" class="form-select">
+                                    <select id="district" class="form-select" style="padding: 10px;">
                                         <option selected>Greater Kumasi</option>
                                         <option>Adansi South District</option>
                                         <option>Ejura - Sekyedumasi Municipal</option>
@@ -98,14 +94,22 @@
                                         <option>Wassa East Municipal</option>
                                     </select>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-md-6">
                                     <label for="Education" class="form-label">Highest Level of Education</label>
-                                    <select id="education" class="form-select">
+                                    <select id="education" class="form-select" style="padding: 10px;">
                                         <option>Tertiary</option>
                                         <option>Vocational/Technical</option>
                                         <option>Senior High School</option>
                                         <option>Junior High School</option>
                                     </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="National ID" class="form-label">Upload National ID</label>
+                                    <input class="form-control" type="file" id="national-id">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="National ID" class="form-label">Upload Profile Picture</label>
+                                    <input class="form-control" type="file" id="national-id">
                                 </div>
                                 <div class="col-12">
                                     <label for="skills" class="form-label">Skills Acquired</label>
